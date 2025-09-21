@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(./assets/body-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-banner {
+  background-image: url(./assets/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 100%;
+}
+
+#brand-title {
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+
+
+.text-warning {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+#main-heading {
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#gallery-first {
+  position: relative;
+  top: 50px;
+}
+
+#gallery-last {
+  position: relative;
+  top: 50px;
+}
+
+#title-underline {
+  width: 100px;
+  height: 5px;
+  background-color: red;
+  position: relative;
+  left: 600px;
+}
+
+.section-heading {
+  font-size: 40px;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.img-fluid {
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.img-fluid:hover {
+  box-shadow: rgba(4, 4, 7, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(2, 7, 12, 0.35) 0px -2px 6px 0px inset;
+}
+
+.mushroom-image {
+  transition: transform 0.3s ease;
+}
+
+.mushroom-image:hover {
+  transform: scale(1.1);
+}
+
+.card .btn:hover {
+  background-color: #ffc107 !important;
+}
+
+.card .i:hover {
+  color: white !important;
+}
+
+.recipe-name {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.d-flex .btn-success {
+  transition: transform 0.3s ease;
+}
+
+.d-flex .btn-success:hover {
+  transform: scale(1.1);
+}
+
+.d-flex .btn-warning {
+  transition: transform 0.3s ease;
+}
+.d-flex .btn-warning:hover {
+  transform: scale(1.1);
+}
+
+.app-section {
+  background-image: url("https://www.lalfoods.com/images/app-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 807px;
+  line-height: 24px;
+  padding-bottom: 175px;
+  padding-top: 225px;
+  text-align: left;
+  width: 100%;
+}
+
+.app-details h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.app-details h2 span {
+  color: #ffe23b;
+}
+
+.app-details p {
+  color: #eaeaea;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.app-button {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: not-allowed;
+}
+
+.phone-container .phone-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.news-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.news-content {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.customer-reviews .slick-prev:before,
+.customer-reviews .slick-next:before {
+  color: blue;
+}
+
+.site-footer {
+  background-image: url("https://www.lalfoods.com/images/footer-bg.png");
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.customer-name {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 419px) {
+  .text-warning {
+    font-size: 21px;
+  }
+  #main-heading {
+    font-size: 21px;
+  }
+  .mushroom-image {
+    width: 140px;
+    height: 140px;
+  }
+  .mushroom-gallery .gallery-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  #title-underline {
+    left: 100px;
+  }
+
+}
+
+
+@media (min-width: 420px) and (max-width: 479px) {
+  .text-warning {
+    font-size: 21px;
+  }
+  #main-heading {
+    font-size: 21px;
+  }
+  .mushroom-image {
+    width: 140px;
+    height: 140px;
+  }
+  .mushroom-gallery .gallery-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  #title-underline {
+    left: 100px;
+  }
+  .about-img{
+    width: 67%;
+  }
+}
+
+
+@media (min-width: 480px) and (max-width: 575px) {
+  .text-warning {
+    font-size: 23px;
+  }
+  #main-heading {
+    font-size: 23px;
+  }
+  .mushroom-image {
+    width: 140px;
+    height: 140px;
+  }
+  .mushroom-gallery .gallery-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  #title-underline {
+    left: 140px;
+  }
+  #para1{
+    font-size: 10px;
+  }
+  .about-img{
+    width: 67%;
+  }
+  .review-slide{
+    margin-left: -20px;
+  }
+}
+
+/* Medium Devices (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .app-details h2 {
+    font-size: 24px;
+  }
+  .app-details p {
+    font-size: 13px;
+  }
+  .app-button {
+    font-size: 14px;
+    padding: 6px 13px;
+  }
+  .phone-container .phone-img {
+    max-height: 200px;
+  }
+  .about-img {
+    width: 300px;
+  }
+  .text-warning {
+    font-size: 30px;
+  }
+  #main-heading {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 10px;
+  }
+  .mushroom-image {
+    width: 150px;
+    height: 150px;
+  }
+  .mushroom-gallery .gallery-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  #title-underline {
+    left: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 849px) {
+  .text-warning {
+    font-size: 30px;
+  }
+  #main-heading {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 10px;
+  }
+  .mushroom-image {
+    width: 150px;
+    height: 150px;
+  }
+  .mushroom-gallery .gallery-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  #title-underline {
+    left: 200px;
+  }
+}
+
+
+@media (min-width: 850px) and (max-width: 991px) {
+  .app-section {
+    background-size: cover;
+  }
+  .app-details h2 {
+    font-size: 28px;
+  }
+  .app-details p {
+    font-size: 14px;
+  }
+  .app-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  .phone-container .phone-img {
+    max-height: 300px;
+  }
+  .text-warning {
+    font-size: 50px;
+  }
+  #main-heading {
+    font-size: 50px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .mushroom-image {
+    width: 200px;
+    height: 200px;
+  }
+  #title-underline {
+    left: 300px;
+  }
+}
+
+/* Large Devices (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .text-warning {
+    font-size: 50px;
+  }
+  #main-heading {
+    font-size: 50px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .mushroom-image {
+    width: 200px;
+    height: 200px;
+  }
+  #title-underline {
+    left: 300px;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .mushroom-image {
+    width: 150px;
+    height: 150px;
+  }
+  #title-underline {
+    left: 400px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .text-warning, #main-heading {
+    font-size: 72px;
+  }
+  #title-underline {
+    left: 700px;
+  }
+  .mushroom-image {
+    width: 250px;
+    height: 250px;
+  }
+  .section-heading {
+    font-size: 48px;
+  }
+  .app-details h2 {
+    font-size: 42px;
+  }
+  .hero-banner {
+    min-height: 600px;
+  }
+  .app-section {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+}
